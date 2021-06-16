@@ -30,3 +30,9 @@ Script Preview: https://cdn.discordapp.com/attachments/797551908863737866/826365
 Author: ! In The Name Of God !#4934
 
 Our Discord Servers: https://discord.gg/8u2GV2CBmh - https://discord.gg/zyCBQP5uS6
+
+![Preview 1](https://cdn.discordapp.com/attachments/758947068466954280/854765093006475304/1.png)
+![Preview 2](https://cdn.discordapp.com/attachments/758947068466954280/854766324337344512/2.png)
+![Preview 3](https://cdn.discordapp.com/attachments/758947068466954280/854766840274616340/3.png)
+![Preview 4](https://cdn.discordapp.com/attachments/758947068466954280/854766409648701460/4.png)
+![Preview 5](https://cdn.discordapp.com/attachments/758947068466954280/854766186394681374/5.png)
