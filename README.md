@@ -26,3 +26,7 @@ Script Features:
 & ...
 
 Script Preview: https://cdn.discordapp.com/attachments/797551908863737866/826365621553201202/Paintball1.mp4
+
+Author: ! In The Name Of God !#4934
+
+Our Discord Servers: https://discord.gg/8u2GV2CBmh - https://discord.gg/zyCBQP5uS6
