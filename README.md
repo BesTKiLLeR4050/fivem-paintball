@@ -1,5 +1,5 @@
 # fivem-paintball
-A paintball mini-game script for FiveM servers!
+A paintball mini-game script for FiveM servers! (esx_paintball)
 
 Script Dependencies:
 
