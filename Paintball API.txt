@@ -1,0 +1,24 @@
+-- Client-Side Export & Event
+Export: IsPlayerInPB()
+Example:
+
+if IsPlayerInPB() then
+	print("Player is in the paintball match")
+end
+
+Event Name: esx_paintball:inPaintBall
+Example:
+
+local inPaintBall = false
+
+AddEventHandler('esx_paintball:inPaintBall', function(state)
+	inPaintBall = state
+end)
+
+-- Server-Side Export
+Export: IsPlayerInPB(source)
+Example:
+
+if IsPlayerInPB(source) then
+	print("Player: " .. source .. " is in the paintball match")
+end

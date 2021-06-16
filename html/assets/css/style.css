@@ -1,0 +1,514 @@
+.btn-grad {
+    background-image: linear-gradient(to right, #ff00cc 0%, #333399 51%, #ff00cc 100%)
+}
+
+.btn-grad {
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    margin: 0;
+    -ms-transformY: translateY(-95%);
+    -ms-transform: translateX(-50%);
+    transform: translateY(-95%);
+    transform: translateX(-50%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.btn-grad2{
+    background-image: linear-gradient(to right, #56CCF2 0%, #2F80ED 51%, #56CCF2 100%)	
+}
+
+.btn-grad2 {
+    position: absolute;
+    left: 30%;
+    margin: 0;
+    -ms-transform: translateX(-30%);
+    transform: translateX(-30%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.btn-grad3 {
+    background-image: linear-gradient(to right, #FFA500 0%, #FF8C00 51%, #FFA500 100%)	
+}
+
+.btn-grad3 {
+    position: absolute;
+    left: 70%;
+    margin: 0;
+    -ms-transform: translateX(-70%);
+    transform: translateX(-70%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.btn-grad4 {
+    background-color: rgba(85, 85, 85, 0.8);
+}
+
+.btn-grad4 {
+    position: absolute;
+    left: 50%;
+    margin: 0;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 25px;
+    border-style: none;
+}
+
+.btn-grad5 {
+    background-color: rgba(85, 85, 85, 0.5);
+}
+
+.btn-grad5 {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    margin: 0;
+    -ms-transform: translateY(-7%);
+    -ms-transform: translateX(-50%);
+    transform: translateY(-7%);
+    transform: translateX(-50%);
+    padding: 5px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 25px;
+    border-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 0.5vw;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #545454; 
+}
+
+.lobby {
+    background-color: #171717;
+    background-image: url(../imgs/back8.jpg);
+    background-position-x: center;
+    background-size: cover;
+    width: 80vw;
+    height: 90vh;
+    margin: auto;
+    border-radius: 1vw;
+    border: double #ffffff 1vw;
+}
+
+.header {
+    margin-left: 41%;
+    font-family: fantasy;
+    color: white;
+    padding-bottom: 7vh;
+    font-size: 2vw;
+}
+
+.join {
+    margin: 0;
+    margin-top: -4vw;
+    position: absolute;
+    font-family: monospace;
+    color: #ffffff;
+    font-size: 2vw;
+}
+
+.lobby-password {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: cursive;
+    background-color: rgba(66, 117, 212, 0.93);
+    text-align: center;
+}
+
+.inputs-pass {
+    position: absolute;
+    top: 18vh;
+}
+
+.elb {
+    margin-left: 16vw;
+    border-radius: 15vw;
+    padding: 0.3vw;
+    text-align: center;
+    color: #8c8c8c;
+}
+
+.enter {
+    background: #66b300;
+}
+
+.left {
+    background: #c10000;
+}
+
+.lobbeys {
+    margin: 0vw;
+    margin-bottom: 0.4vw;
+    overflow: hidden;
+    text-shadow: 2px -1px 7px black;
+    box-shadow: 1px 4px 3px 1px black;
+    color: black;
+    background-color: #cacaca;
+    font-family: cursive;
+    text-align: center;
+    font-size: 1.0vw;
+}
+
+.player {
+    margin: 0vw;
+    margin-bottom: 0.4vw;
+    overflow: hidden;
+    text-shadow: 2px -1px 7px black;
+    box-shadow: 1px 4px 3px 1px black;
+    color: black;
+    background-color: #cacaca91;
+    font-family: cursive;
+    text-align: center;
+    font-size: 1.6vw;
+}
+
+.player.ready{
+    background-color: #31d20370;
+}
+
+.buttom {
+    float: left;
+    text-align: center;
+    padding: 2vw;
+    padding-bottom: 0.6vw;
+    border-radius: 5vw;
+    border: double 0.5vw;
+    position: relative;
+    margin-left: 2vw;
+    margin-top: 3vh;
+}
+
+.buttom-text {
+    margin: auto;
+    font-size: 3vw;
+    margin-top: -1.5vw;
+    font-family: monospace;
+}
+
+.start {
+    background: #005416;
+    float: right;
+    margin-right: 2vw;
+}
+
+.leave {
+    background: #610000;
+}
+
+.box {
+    width: 21vw;
+    height: 48vh;
+    margin-left: 2.7vw;
+    background: white;
+    border: double 1vw;
+    overflow-x: auto;
+    float: left;
+}
+
+.box {
+    width: 21vw;
+    height: 48vh;
+    margin-left: 2.7vw;
+    background: #397f9c78;
+    border: double 1vw;
+    overflow-x: auto;
+}
+
+.boxlobbeys {
+    width: 21vw;
+    height: 48vh;
+    margin-left: 4.0vw;
+    background: #397f9c78;
+    border: double 1vw;
+    overflow-x: auto;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.map-img {
+    width: 21vw;
+    height: 29vh;
+    border: double 1vw white;
+    border-radius: 1vw;
+}
+
+.selectmap {
+    width: 32vw;
+    margin-left: 24vw;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 22vh;
+}
+
+.select {
+    margin: 4vw;
+    color: white;
+}
+
+.footer {
+    bottom: 9vh;
+    position: absolute;
+}
+
+.right {
+    margin-right: 12vw;
+    right: 0;
+}
+
+.ready {
+    background: #fbff00;
+}
+
+.weapon-select {
+    margin-top: 35vh;
+}
+
+.weapon {
+    height: 16vh;
+    max-width: 34vw;
+}
+
+.selector {
+    color: white;
+    font-size: 21vh;
+    margin-top: -27vh;
+}
+
+.sleft {
+    margin-left: -51vw;
+    position: relative;
+}
+
+#sbutton-left {
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 0;
+    color: white;
+    font-family: cursive;
+    font-size: 21vh;
+    outline: none;
+}
+
+.sright {
+    margin-left: 37vw;
+    margin-top: -50.2vh;
+}
+
+#sbutton-right {
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 0;
+    color: white;
+    font-family: cursive;
+    font-size: 21vh;
+    outline: none;
+}
+
+.weapon-title {
+    color: white;
+    font-size: 2vw;
+    margin-top: -14vh;
+    padding-bottom: 11vh;
+}
+
+.weapon-name {
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: -15vh;
+    font-size: 2vw;
+}
+
+.weapon-price {
+    color: #00ce06;
+    font-size: 1.5vw
+}
+
+.title {
+    color: white;
+    font-size: 4vw;
+    font-family: fantasy;
+    text-shadow: 5px 5px black;
+}
+
+p {
+    color: white;
+}
+
+.setting {
+    text-align: center;
+}
+
+#lpass {
+    width: 17vw;
+}
+
+input, select {
+    width: 20vw;
+    padding: 1vh 0.5vw;
+    margin: 1vh 2vw;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form {
+    margin-top: 18vh;
+    margin-left: -5vh;
+}
+
+.form ul {
+    list-style-type: none;
+    list-style-position: outside;
+    margin:0px;
+    padding:0px;
+}
+
+.form li{
+    padding: 4px; 
+    position: relative;
+} 
+
+.form label {
+    color: white;
+    font-family: monospace;
+    font-size: 1.5vw;
+    display: inline-block;
+    text-align: right;
+    width: 11vw;
+    text-shadow: 3px 2px 0px black;
+}
+
+.boxlobbeys {
+    margin: 18vh;
+    padding: 0px;
+    margin-left: 28vw;
+}
+
+.question {
+    margin-left: 28vw;
+    margin-top: 37vh;
+}
+.question button {
+    background-color: #4199bb;
+    border: none;
+    color: white;
+    padding: 4vh 2vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    font-family: cursive;
+    border-radius: 4vw;
+    outline: none;
+    margin: 1vw;
+}
+
+.contendertop {
+	float: right;
+	margin-top: 45vh;
+	border-radius: 1vw;
+	color: white;
+}
+
+.processtTime {
+	margin: 0;
+	margin-left: 12vw;
+	font-family: cursive;
+	font-size: 2vh;
+}
+
+.btn-pbtop-1 {
+  background-image: linear-gradient(
+	to right,
+	#57C84D 0%,
+	#83D475 51%,
+	#ABE098 100%
+  );
+}
+
+.btn-pbtop-1 {
+  margin: 0.7vw;
+  padding: 0.5vw 0.7vw;
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 50%;
+  border-style: none;
+}
+
+.text-style {
+  padding: 0.4vw;
+  padding-right: 0;
+  padding-left: 11vw; 
+  margin-right: 1vw;  
+  background-image: linear-gradient(to right,#57C84D 0%,#83D475 51%,#ABE098 100%);
+  border-radius: 2vh;
+  display: inline;
+  color: white;
+}
+
+.btn-pbtop {
+  background-image: linear-gradient(
+	to right,
+	#141e30 0%,
+	#243b55 51%,
+	#141e30 100%
+  );
+}
+
+.btn-pbtop {
+  margin: 0;
+  margin-left: 0.7vw;
+  padding: 0.5vw 0.7vw;
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 50%;
+  border-style: none;
+}
