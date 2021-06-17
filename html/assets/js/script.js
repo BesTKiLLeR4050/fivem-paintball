@@ -1,5 +1,5 @@
 // Az in vara? :D
-let ResourceName = 'esx_paintball';
+let ResourceName = 'fivem-paintball';
 let weapons = [
     'advancedrifle.png',      'appistol.png',
     'assaultrifle.png',       'assaultrifle_mk2.png',
