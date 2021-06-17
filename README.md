@@ -1,6 +1,9 @@
 # fivem-paintball
 A paintball mini-game script for FiveM servers! (esx_paintball)
 
+**!!! IMPORTANT NOTE !!!**
+Make sure the resource name is **fivem-paintball**, if you want to change this locate this file: **html/assets/js/script.js**, open the file and edit the resource name in second line.
+
 **Script Dependencies:**
 
 * essentialmode
