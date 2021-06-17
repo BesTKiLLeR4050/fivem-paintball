@@ -3,7 +3,7 @@ Export: IsPlayerInPB()
 Example:
 
 if IsPlayerInPB() then
-	print("Player is in the paintball match")
+	print("Player is in a paintball match")
 end
 
 Event Name: esx_paintball:inPaintBall
@@ -20,5 +20,5 @@ Export: IsPlayerInPB(source)
 Example:
 
 if IsPlayerInPB(source) then
-	print("Player: " .. source .. " is in the paintball match")
+	print("Player: " .. source .. " is in a paintball match")
 end
