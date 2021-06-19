@@ -433,7 +433,7 @@ function StartRound(PlayerId, LobbyId, RoundWinner, _)
 	local TempRound = LobbyList[_].roundCounter
 	local TempLobbyCounter = LobbyList[_].LobbyCounter
 	
-	_SetTimeout(((7 * 60) + 1) * 1000, function()
+	SetTimeout(((7 * 60) + 1) * 1000, function()
 		local LobbyKey2, LobbyValue2 = FindLobby(LobbyId)
 		if LobbyValue2 and LobbyValue2.started then
 			if LobbyValue.lobbyOwner.source == LobbyValue2.lobbyOwner.source and LobbyValue.LobbyId == LobbyValue2.LobbyId then
