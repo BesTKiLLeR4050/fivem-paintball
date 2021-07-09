@@ -129,7 +129,7 @@ function QuitLobby(LobbyId, TeamID, PlayerId)
 		end
 		for teamID, teamData in pairs(LobbyList[_].teams) do
 			for playerIndex, playerData in pairs(teamData) do
-				PBPlayers[playerData.source] = true
+				PBPlayers[playerData.source] = false
 				TriggerClientEvent('esx_paintball:QuitLobby', playerData.source, PlayerId)
 			end
 		end
