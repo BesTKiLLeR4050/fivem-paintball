@@ -1,5 +1,4 @@
 // Az in vara? :D
-let ResourceName = 'fivem-paintball';
 let weapons = [
     'advancedrifle.png',      'appistol.png',
     'assaultrifle.png',       'assaultrifle_mk2.png',
@@ -104,7 +103,7 @@ function onSubmit(){
     if(lobbyname.length != 0 && lobbyname.val().length > lobbyname.attr('minlength')){
         var max = roundNum.attr('max');
         if(roundNum.val() > 0 && parseInt(roundNum.val()) <= parseInt(max)){
-            fetch(`https://${ResourceName}/CreateLobby`, {
+            fetch(`https://${GetParentResourceName()}/CreateLobby`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json; charset=UTF-8',
@@ -138,7 +137,7 @@ function onSubmit(){
 function onJoinLobby(){
     $('.question').css('display', 'none');
     $('.list').css('display', 'block');
-    fetch(`https://${ResourceName}/LobbyList`, {
+    fetch(`https://${GetParentResourceName()}/LobbyList`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json; charset=UTF-8',
@@ -172,7 +171,7 @@ function onSelectLobby(id){
         $('.list').css('display', 'none');
         $('#startButton').css('display', 'none');
         $('div[name="main"]').css('display', 'block');
-        fetch(`https://${ResourceName}/JoinLobby`, {
+        fetch(`https://${GetParentResourceName()}/JoinLobby`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json; charset=UTF-8',
@@ -199,7 +198,7 @@ function onSelectLobby(id){
 };
 function onJoin(id){
     var tid = id.split('-')[1];
-    fetch(`https://${ResourceName}/SwitchTeam`, 
+    fetch(`https://${GetParentResourceName()}/SwitchTeam`, 
 	{
         method: 'POST',
         headers: {
@@ -227,7 +226,7 @@ function onJoin(id){
 // In Lobby Functions
 function onStart(){
     page = 0;
-    fetch(`https://${ResourceName}/StartMatch`, {
+    fetch(`https://${GetParentResourceName()}/StartMatch`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json; charset=UTF-8',
@@ -240,7 +239,7 @@ function onStart(){
 function onReady(){
     $('#ReadyButton').css('display', 'none');
     $('#UnReadyButton').css('display', 'block');
-    fetch(`https://${ResourceName}/ToggleReadyPlayer`, {
+    fetch(`https://${GetParentResourceName()}/ToggleReadyPlayer`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json; charset=UTF-8',
@@ -255,7 +254,7 @@ function onReady(){
 function onUnready(){
     $('#UnReadyButton').css('display', 'none');
     $('#ReadyButton').css('display', 'block');
-    fetch(`https://${ResourceName}/ToggleReadyPlayer`, {
+    fetch(`https://${GetParentResourceName()}/ToggleReadyPlayer`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json; charset=UTF-8',
@@ -270,7 +269,7 @@ function onUnready(){
 function onLeave(){
     page = 0;
     $('.lobby').css('display', 'none');
-    fetch(`https://${ResourceName}/QuitLobby`, {
+    fetch(`https://${GetParentResourceName()}/QuitLobby`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json; charset=UTF-8',
@@ -321,7 +320,7 @@ function onBack(){
 function onCancel(){
     page = 0;
     $('.lobby').css('display', 'none');
-    fetch(`https://${ResourceName}/QuitFromMenu`, {
+    fetch(`https://${GetParentResourceName()}/QuitFromMenu`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json; charset=UTF-8',
@@ -346,7 +345,7 @@ function onBackQuestion(){
 document.onkeyup = function(data) {
     if(data.which == 27){ // ESC Press
         if(page == 0){
-            fetch(`https://${ResourceName}/QuitFromMenu`, {
+            fetch(`https://${GetParentResourceName()}/QuitFromMenu`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json; charset=UTF-8',
@@ -359,7 +358,7 @@ document.onkeyup = function(data) {
         if(page == 85){
             var pass = $('#lpass').val();
             if(pass != null || pass != ""){
-                fetch(`https://${ResourceName}/GetLobbyPassword`, {
+                fetch(`https://${GetParentResourceName()}/GetLobbyPassword`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json; charset=UTF-8',
@@ -375,7 +374,7 @@ document.onkeyup = function(data) {
                         $('.list').css('display', 'none');
                         $('#startButton').css('display', 'none');
                         $('div[name="main"]').css('display', 'block');
-                        fetch(`https://${ResourceName}/JoinLobby`, {
+                        fetch(`https://${GetParentResourceName()}/JoinLobby`, {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json; charset=UTF-8',
